@@ -1,0 +1,75 @@
+body{
+    /* margin:0; */
+    /* display: flex;
+    justify-content: center; */
+    /* height: 100vp;
+    align-items: center;
+    text-align: center; */
+    background-color: yellow;
+    font-family: cursive; 
+    background-image: url(https://www.clipartmax.com/middle/m2i8m2Z5G6H7b1d3_math-kids/);
+}
+
+
+.form{
+    background-color: white;
+    padding: 35px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 250px;
+    margin-right: 250px;
+    box-shadow: 0 4px 8px rgba(0,0,0, 0.3);
+    border-radius: 10px;
+}
+
+.input{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 30px;
+    text-align: left;
+    padding: 10px;
+    border: solid 4px green;
+    color: green;
+}
+
+.input::placeholder{
+    color:lightgray;
+    font-family: cursive;
+}
+
+.btn{
+    background-color: rgb(134, 180, 65);
+    color:white;
+    border:none;
+    display:block;
+    width:100%;
+    padding:10px;
+    font-size:20px;
+    font-family: cursive;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0, 0.3);
+    cursor: pointer;
+}
+
+.btn:hover {
+    filter: brightness(0.9);
+}
+
+.score{
+    color: green;
+    text-align: right;
+}
+
+/* ........................... */
+
+h1{
+    padding: 20px;
+    text-align: center; 
+    color:red;
+    font-style:oblique;
+}
+
+
+ 
